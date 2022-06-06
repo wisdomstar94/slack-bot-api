@@ -1,0 +1,38 @@
+{
+  "name": "slack-bot-api",
+  "version": "1.0.0",
+  "description": "slack 봇 api 샘플 프로젝트 입니다.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "slack",
+    "슬랙",
+    "slackbot",
+    "슬랙봇",
+    "slackapi",
+    "슬랙api"
+  ],
+  "author": "wisdomstar94@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/events-api": "^3.0.1",
+    "@slack/web-api": "^6.7.1",
+    "app-root-path": "^3.0.0",
+    "axios": "^0.27.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "date-utils": "^1.2.21",
+    "dayjs": "^1.11.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "geoip-lite": "^1.4.5",
+    "http-errors": "^2.0.0",
+    "request-ip": "^2.2.0",
+    "uuid": "^8.3.2",
+    "winston": "^3.7.2",
+    "winston-daily-rotate-file": "^4.7.1"
+  }
+}
