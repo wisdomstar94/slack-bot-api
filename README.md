@@ -114,5 +114,5 @@ http://localhost:2510/slack/bot/message/send
 16. "src/customs/slackEventAction.js" 은 slack에서 발생하는 다양한 이벤트를 받아 처리할 수 있습니다.<br />
 &nbsp;<img src="readme_images/slack-bot-api-event-action-file.png" />
 
-17. "slackMessageBlocks.js" 은 슬랙으로 전송되는 메시지 내용 폼을 자유롭게 작성할 수 있습니다. <br />
+17. "src/customs/slackMessageBlocks.js" 은 슬랙으로 전송되는 메시지 내용 폼을 자유롭게 작성할 수 있습니다. <br />
 &nbsp;<img src="readme_images/slack-bot-api-message-blocks.png" />
